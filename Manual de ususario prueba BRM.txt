@@ -1,0 +1,23 @@
+Prueba Tecnica BRM William Rodriguez Rojas
+Envio Prueba de WordPress realizada con un custom theme en el cual encontraremos
+ 4 vistas diferentes desde las cuales podremos ver nuestros contactos favoritos los
+cuales son los custom post types contactos en los cuales se agregaron los custom fields solicitados
+la segunda es la vista de agenda telefonica desde la cual podemos ver la lista de los nombres de los contactos 
+guardados y dar click en detalles para abrir la informacion completa de cada uno de ellos, ademas en la parte 
+inferior encontramos la opcion buscar que nos permite realizar la busqueda por el numero de celular de los contactos
+guardados, y la ultima encontramos la vista de detalles de contacto que es la que se nos abre al dar detalles en la 
+lista de los nombres.
+
+Manual de instalación
+
+1. Debe contar con un servicio local de PHP y Mysql se recomienda XAMPP o WAMP.
+2. Active las opciones de Apache la cual sera el servidor local de la aplicacion y la opcion de MySql la cual se encargara de correr la base de datos.  
+3. Ubique la carpeta XAMPP en ella ubique la carpeta htdocs y en ella copie la carpeta PruebaBRMWilliamR
+4. Abra phpMyAdmin y importe la base de datos pruebabrmwilliamr.sql.
+5. Tenga en cuenta que el usuario es root y la base no está protegida con contraseña.
+6. Inicie su navegador y en la URL utilice http://localhost/PruebaBRMWilliamR/
+7. agregue wp-admin al final de la ruta para ingresar como administrador y en el cuadro de dialogo que le abre coloque:
+	-El usuario de wordpress es: administrador
+	-Contraseña: MYO@h1K5Z)DQv1R5w)
+
+Culaquier duda no dude en contactarse Cel: 3213019261 William Danilo Rodriguez Rojas williamrodriguez997@gmail.com

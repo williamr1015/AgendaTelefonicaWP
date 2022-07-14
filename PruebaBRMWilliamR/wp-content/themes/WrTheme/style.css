@@ -1,0 +1,113 @@
+/*
+Theme name: WrTheme
+Version: 1.0
+Description: Prueba William Rodriguez
+Author: William Rodriguez 
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/glp-2.0.html
+*/
+
+:root {
+    --color-1: rgb(249, 252, 247);
+    --color-2: rgb(0, 104, 249);
+}
+
+body {
+    background-color: var(--color-2);
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+li,
+p,
+span,
+ul {
+    font-family: Montserrat;
+    text-decoration: none;
+    color: var(--color-1);
+}
+
+.attachment-large {
+    max-width: 100%;
+    height: auto!important
+}
+
+h1 {
+    margin: 50px 0;
+    font-weight: 900;
+}
+
+ul {
+    margin-bottom: 0px;
+}
+
+header {
+    background-image: url("./asset/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 15px
+}
+
+header nav li a {
+    color: var(--color-1);
+    text-transform: uppercase
+}
+
+header nav li a:hover {
+    color: var(--color-1);
+}
+
+footer {
+    background-image: url("./asset/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 0
+}
+
+footer {
+    color: var(--color-1);
+}
+
+footer p {
+    margin: 0;
+    color: var(--color-1);
+}
+
+.lista-contactos h2 {
+    font-weight: 900
+}
+
+.lista-contactos h4 {
+    font-weight: 400
+}
+
+.lista-contactos h4 a {
+    color: #000
+}
+
+.logo {
+    border-radius: 100px;
+    width: 200px;
+}
+
+.lista-contactos {
+    padding: 5px;
+    border: 10px solid rgb(17, 21, 232);
+    display: flex;
+    justify-content: center;
+}
+
+.item-container {
+    padding: 5px;
+    border: 10px solid rgb(3, 3, 3);
+}
